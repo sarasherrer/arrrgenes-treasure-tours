@@ -3,6 +3,11 @@ html {
   font-family: "Libre Baskerville", serif;
 }
 
+a:focus {
+  outline: 3px solid #000;
+  outline-color: white;
+}
+
 .masthead {
   background-color: #522806;
   border-bottom: .3rem solid #bea59b;
@@ -39,6 +44,7 @@ html {
 .banner {
   min-height: 16em;
   color: #fff;
+  background: black;
 }
 
 .card {
